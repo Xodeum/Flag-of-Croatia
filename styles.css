@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border: 1px solid #000;
+}
+
+.stripe {
+    height: 33.33%;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.coat-of-arms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkerboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+}
+
+.square.red {
+    background-color: #ff0000;
+}
+
+.square.white {
+    background-color: #ffffff;
+}
